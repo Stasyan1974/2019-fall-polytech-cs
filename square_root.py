@@ -1,13 +1,13 @@
-def sqr(x, n):
+def sqr(num, n):
   low = 0
-  high = x * 2 - low
+  high = num
   while low <= high:
       m = (low + high) / 2
-      t = m**2 - x
+      t = m**2 - num
       if abs(t) < n:
           return round(m, 4)
       elif t < 0:
-          low = m + n
+          low = m
       else:
-          high = m - n
-  return "x < 0"
+          high = m
+  return "num < 0"
