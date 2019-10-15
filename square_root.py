@@ -1,6 +1,6 @@
 def sqr(x, n):
   low = 0
-  high = 2x - low
+  high = x * 2 - low
   while low <= high:
       m = (low + high) / 2
       t = m**2 - x
