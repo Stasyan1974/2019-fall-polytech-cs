@@ -1,12 +1,13 @@
-def sqr(x):
+def sqr(x, n):
   low = 0
-  high = 1000
+  high = 2x - low
   while low <= high:
       m = (low + high) / 2
-      if round(m**2, 2) == x:
-          return round(m, 2)
-      elif round(m**2, 2) < x:
-          low = m + 0.001
+      t = m**2 - x
+      if abs(t) < n:
+          return round(m, 4)
+      elif t < 0:
+          low = m + n
       else:
-          high = m - 0.001
-  return "x < 0 или корень из х больше 1000"
+          high = m - n
+  return "x < 0"
