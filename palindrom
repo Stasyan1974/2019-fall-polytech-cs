@@ -1,4 +1,4 @@
-def a(x):
+def pal(x):
   if x == x[::-1]:
      print("Палиндром")
   else:
