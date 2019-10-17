@@ -11,5 +11,5 @@ def selection_sort(arg):
   sp = []
   for i in range(len(arg)):
     smallest_index = find_smallest(arg)
-    sp.append(arg[smallest_index])
+    sp.append(arg.pop(smallest_index)) # .pop удаляет i-ый элемент и возвращает его. Если индекс не указан, удаляется последний элемент
   return sp
