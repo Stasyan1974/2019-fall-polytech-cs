@@ -9,7 +9,7 @@ def find_smallest(arg):
 
 def selection_sort(arg):
   sp = []
-  for i in range(len(sp)):
+  for i in range(len(arg)):
     smallest_index = find_smallest(arg)
     sp.append(arg[smallest_index])
   return sp
