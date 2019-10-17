@@ -8,8 +8,8 @@ def find_smallest(arg):
   return smallest_index
 
 def selection_sort(arg):
-  list = []
+  sp = []
   for i in range(len(list)):
     smallest_index = find_smallest(arg)
     list.append(arg[smallest_index])
-  return list
+  return sp
