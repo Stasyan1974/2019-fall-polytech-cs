@@ -11,5 +11,5 @@ def selection_sort(arg):
   sp = []
   for i in range(len(sp)):
     smallest_index = find_smallest(arg)
-    sp.append(arg[smallest_index])
+    sp.append(arg[smallest_index]) #??
   return sp
