@@ -11,3 +11,8 @@ def nok(x, y):
   
 def nok3(l, m, k):
   return nok(nok(l, m), k) # НОК трёх периодов и есть частота выстраивания планет в одну линию
+
+# Тест
+if __name__ == __main__:
+  assert nok3(2, 5, 15) == 30.0
+  assert nok3(3, 6, 13) == 78.0
