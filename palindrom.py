@@ -9,5 +9,5 @@ def pal(data1):
       
 # Тест
 if __name__ == __main__:       
-  assert pal("AbbA") == "yes\nyes\nyes\nyes"
-  assert pal("aReA") == "yes\nno\nno\nyes"
+  assert "ABBA" == reversed("ABBA")
+  assert "area" == reversed("area")
