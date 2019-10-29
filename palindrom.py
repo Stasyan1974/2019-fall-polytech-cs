@@ -9,5 +9,5 @@ def pal(data1):
       
 # Тест
 if __name__ == __main__:       
-  assert ("ABBA" == reversed("ABBA")), "is palindrom" 
+  assert ("ABBA" == reversed("ABBA")), "is not palindrom" 
   assert ("area" == reversed("area")), "is not palindrom"
