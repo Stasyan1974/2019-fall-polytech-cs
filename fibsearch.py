@@ -13,7 +13,7 @@ def fibsearch(arr, x):
   offset = -1
   while fib > 1:
     i = min(offset + fib2, n - 1)
-    if arr(i) < x:
+    if arr[i] < x:
       fib = fib1
       fib1 = fib2
       fib2 = fib - fib1
