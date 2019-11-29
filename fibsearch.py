@@ -27,3 +27,8 @@ def fibsearch(arr, x):
   if fib1 and arr[offset+1] == x:
     return offset + 1
   return -1
+
+# Тест
+sp = [23, 51, 123, 657, 12315, 668, 768, 99, 86, 234, 99, 321]
+print(fibsearch(sp, 12315))
+# Программа выведет индекс элемента 12315
